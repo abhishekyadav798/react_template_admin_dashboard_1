@@ -1,0 +1,21 @@
+.Barchart1{
+    height: 270px;
+    /* width: 210px; */
+}
+
+.Container{
+    border: solid rgb(164, 194, 214) 1px;
+    border-radius: 10px;
+    height: 150px;
+    box-shadow: 1px 1px 20px 1px rgb(209, 209, 209);
+}
+.image_dots{
+    height:"7px";
+    width:"14px";
+    margin-left:"130px";
+    border:"2px solid #555"
+}
+.navbar_brand{
+    background-color: rgb(174, 175, 168);
+    color: rgb(0, 0, 0);
+}

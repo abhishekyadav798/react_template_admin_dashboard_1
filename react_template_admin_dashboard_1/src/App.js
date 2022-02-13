@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import { Col, Navbar, Row } from 'reactstrap';
+import Component_1_sales from './Component_1_sales';
+import Component_2_weather from './Component_2_weather';
+import Topnavbar from './Topnavbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row>
+        <Topnavbar/>
+      </Row>
+      <Row>
+        <Col md="6">
+           <Component_1_sales/>
+        </Col>
+        <Col md="6">
+          <Component_2_weather/>
+        </Col>
+      </Row>
     </div>
   );
 }
