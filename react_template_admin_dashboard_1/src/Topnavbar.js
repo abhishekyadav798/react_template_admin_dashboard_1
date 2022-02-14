@@ -4,7 +4,7 @@ import './Component.css';
 import Speech from"./Images/speech.png";
 import Bell from"./Images/bell.png";
 import India from"./Images/india.png";
-import Avatar from"./Images/avatar.jpg";
+import Avatar from"./Images/avatar.png";
 
 import {
     Collapse,

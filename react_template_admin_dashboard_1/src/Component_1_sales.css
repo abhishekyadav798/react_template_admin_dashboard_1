@@ -1,0 +1,11 @@
+#component_1_sales{
+    /* height: 45vh; */
+    /* width: 210px; */
+    /* height: 25vh; */
+    margin:1vh;
+    border: solid rgb(164, 194, 214) 1px;
+    border-radius: 10px;
+    /* height: 150px; */
+    box-shadow: 1px 1px 20px 1px rgb(209, 209, 209);
+    display: 'flex'
+}

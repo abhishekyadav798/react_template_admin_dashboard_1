@@ -8,21 +8,20 @@ import Topnavbar from './Topnavbar';
 function App() {
   return (
    <div>
-   <Row>
-        <Topnavbar/>
-      </Row>
-    <Container className="Container1" >
-      
+    <Row>
+      <Topnavbar/>
+    </Row>
+    <Container className="Container1" >  
       <Row>
         <Col md="6" sm="6">
            <Component_1_sales/>
         </Col>
-        <Col md="6" sm="6">
+        <Col md="6" sm="6" >
           <Component_2_weather/>
         </Col>
       </Row>
     </Container>
-    </div>
+   </div>
   );
 }
 

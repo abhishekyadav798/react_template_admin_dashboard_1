@@ -3,6 +3,7 @@ import Weather from"./Images/weather.png";
 import Dots from"./Images/dots.png";
 import { Button,Container,Dropdown,Progress, Row, Col} from 'reactstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './Component_2_weather.css';
 
 function Card() {
     return (       

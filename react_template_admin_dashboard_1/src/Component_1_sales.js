@@ -3,14 +3,14 @@ import { Button,Container,Dropdown, Row, Col} from 'reactstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from 'chart.js/auto'
-import './Component.css';
+import './Component_1_sales.css';
 import Help from"./Images/help.png";
 import BarChart1 from"./Barchart1";
    
 function Card() {
   return (
       
-      <Row   id="component_1_sales">
+      <Row id="component_1_sales">
       <Col sm="4">
       <h6 style={{fontSize:"15px",color:" rgb(20, 20, 20)",margin:"0px"}} >
           Weekly Sales <img src={Help} style={{height:"13px",width:"13px"}} />
