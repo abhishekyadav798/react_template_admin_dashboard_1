@@ -1,17 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import { Col, Navbar, Row, Container , fluid} from 'reactstrap';
+import Topnavbar from './Topnavbar';
 import Component_1_sales from './Component_1_sales';
 import Component_2_weather from './Component_2_weather';
-import Topnavbar from './Topnavbar';
+import Component_3_total_order from './Component_3_total_order';
+import Component_4_market_share from './Component_4_market_share';
+
 
 function App() {
   return (
-   <div>
+   <Container>
     <Row>
       <Topnavbar/>
     </Row>
-    <Container className="Container1" >  
+    
       <Row>
         <Col md="6" sm="6">
            <Component_1_sales/>
@@ -20,8 +23,15 @@ function App() {
           <Component_2_weather/>
         </Col>
       </Row>
-    </Container>
-   </div>
+    <Row>
+      <Col>
+      <Component_3_total_order/>
+      </Col>
+      <Col>
+      <Component_4_market_share/>
+      </Col>
+    </Row>
+   </Container>
   );
 }
 

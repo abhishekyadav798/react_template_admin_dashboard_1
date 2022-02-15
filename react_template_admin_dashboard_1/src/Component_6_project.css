@@ -1,0 +1,37 @@
+#component_6_project{ 
+    box-shadow: 1px 1px 20px 1px rgb(209, 209, 209); 
+}
+
+
+#box{
+    color: rgb(56, 156, 250);
+    border: none rgb(164, 194, 214) 1px;
+    border-radius: 11px;
+    width: 50px;
+    height: 18px;
+    text-decoration: none;
+    background-color: aliceblue;
+    font-size: 11px;
+    font-weight: 600; 
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+#bottom_link{
+    text-decoration:none;
+    color:rgb(1, 51, 97);  
+    padding-top: 5px; 
+}
+
+#bottom_bar{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 17px;   
+}
+#bar_top{
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

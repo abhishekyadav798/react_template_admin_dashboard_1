@@ -1,16 +1,14 @@
-#component_1_sales{
-    padding-bottom: 4px;
+#market_share{
     box-shadow: 1px 1px 20px 1px rgb(209, 209, 209);
-    display: 'flex'
 }
-#sm-auto{
-    color:rgb(45, 160, 35);
-    background-color:rgb(168, 247, 207);
+.sm-auto2{
+    color:rgb(7, 117, 136);
+    background-color:rgba(206, 248, 255, 0.719);
     border-radius:15px;
     border:none;
     padding:3px;
     text-decoration:none;
     font-size:11px;
     font-weight:800;
-    margin-left: 66px;
+    margin-left: 29px;
 }

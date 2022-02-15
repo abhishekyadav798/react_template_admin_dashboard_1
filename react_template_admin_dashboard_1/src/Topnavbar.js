@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Component.css';
 import Speech from"./Images/speech.png";
 import Bell from"./Images/bell.png";
 import India from"./Images/india.png";
@@ -69,7 +68,7 @@ export default class Topnavbar extends React.Component {
                       </DropdownMenu>
                     </UncontrolledDropdown>
                     <NavItem >
-                        <a href="/" > <img style={{ width:"20px",height:"20px",marginTop:"10px",marginLeft:"760px"}} src={Speech}/></a> 
+                        <a href="/" > <img style={{ width:"20px",height:"20px",marginTop:"10px",marginLeft:"620px"}} src={Speech}/></a> 
                     </NavItem>
                     <NavItem >
                         <a href="/" > <img style={{ width:"20px",height:"20px",marginTop:"10px",marginLeft:"20px"}} src={Bell}/></a> 

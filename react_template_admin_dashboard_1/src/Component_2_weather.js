@@ -17,7 +17,7 @@ function Card() {
                 </div>
                 </Col>
                
-                <Col sm="1"> <a href="#" ><img src={Dots} style={{height:"7px",width:"14px",marginLeft:"0px",border:"2px solid #555",}}/></a></Col>
+                <Col sm="1"> </Col>
             </Row>
             
             <Row>
