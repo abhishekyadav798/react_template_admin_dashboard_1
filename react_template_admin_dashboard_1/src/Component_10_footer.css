@@ -1,0 +1,19 @@
+#component_15_footer{
+    /* box-shadow: 1px 1px 20px 1px rgb(209, 209, 209); */
+    display: 'flex';
+    padding: 9px;
+}
+#text_style{
+    text-align: center;
+    font-weight: 350;
+    color: rgb(130, 133, 133);
+    text-decoration: none;
+}
+#text_style a:hover{
+    color: rgb(0, 0, 0);
+}
+#bottom_bar{
+    color: black;
+    text-align: center;
+    padding: 10px;
+}

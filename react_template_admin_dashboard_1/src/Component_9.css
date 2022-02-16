@@ -1,0 +1,10 @@
+#component_12_file{
+    box-shadow: 1px 1px 20px 1px rgb(209, 209, 209);
+    display: 'flex';
+    padding: 13px;
+}
+#top_style{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
