@@ -1,11 +1,8 @@
 import React,{useState,useEffect} from "react";
-
 import Upsign from "./Images/upsign.png"
 import Red_down from "./Images/red_down.png"
-import { Button,Container,Dropdown, Row, Col} from 'reactstrap';
+import { Row, Col} from 'reactstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Bar,Line } from "react-chartjs-2";
-import { Chart as ChartJS } from 'chart.js/auto'
 import Chart_line_total_order from "./Chart_line_total_order";
 import './Component_3_total_order.css';
    

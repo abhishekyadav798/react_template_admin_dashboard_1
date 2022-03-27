@@ -1,0 +1,6 @@
+#component_2_weather{
+   margin-top: 20px;
+    box-shadow: 1px 1px 20px 1px rgb(209, 209, 209);
+    display: 'flex';
+    padding-bottom: 13px;
+}
